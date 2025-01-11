@@ -1,0 +1,23 @@
+//Conversion of values to Boolean
+let a="34"
+console.log("\nActual type:",typeof a,a,"\nAfter:", typeof(a=Boolean(a)),a);
+a=1
+console.log("\nActual type:",typeof a,a,"\nAfter:", typeof(a=Boolean(a)),a);
+a=0
+console.log("\nActual type:",typeof a,a,"\nAfter:", typeof(a=Boolean(a)),a);
+a='1'
+console.log("\nActual type:",typeof a,a,"\nAfter:", typeof(a=Boolean(a)),a);
+a='0'
+console.log("\nActual type:",typeof a,a,"\nAfter:", typeof(a=Boolean(a)),a);
+a=''
+console.log("\nActual type:",typeof a,a,"\nAfter:", typeof(a=Boolean(a)),a);
+a="34cc"
+console.log("\nActual type:",typeof a,a,"\nAfter:", typeof(a=Boolean(a)),a);
+a=false
+console.log("\nActual type:",typeof a,a,"\nAfter:", typeof(a=Boolean(a)),a);
+a=6.6
+console.log("\nActual type:",typeof a,a,"\nAfter:", typeof(a=Boolean(a)),a);
+a=null
+console.log("\nActual type:",typeof a,a,"\nAfter:", typeof(a=Boolean(a)),a);
+a=undefined
+console.log("\nActual type:",typeof a,a,"\nAfter:", typeof(a=Boolean(a)),a);
