@@ -1,3 +1,14 @@
+//data type in js
+
+/// Primitive
+// 7 types: String , Number, Boolean, null, undefined, Symbol
+
+
+// Reference (non-primitive)
+// Array,Object,Symbol
+
+
+
 //Conversion of values to Number
 
 let a="34"
