@@ -1,6 +1,6 @@
 let a="kanhaiya"
 a="chaudhari"
-console.log(a)
+console.log(a)     // it will change to "chaudhari"
 
 const b="kanhaiya"
 // b="chaudhari" it will not change the value because it's already declared as constant 

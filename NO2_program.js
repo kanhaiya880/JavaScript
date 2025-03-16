@@ -8,4 +8,5 @@ let state;
 let occupation=null
 
 //symbol and object
-console.table([typeof name, typeof age, typeof marks, typeof single, typeof state, typeof occupation],[name,age,marks,single,state,occupation])
+//console.table([typeof name, typeof age, typeof marks, typeof single, typeof state, typeof occupation],[name,age,marks,single,state,occupation])
+console.table([name,age,marks])
